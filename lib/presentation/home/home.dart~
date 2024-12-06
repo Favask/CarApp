@@ -49,7 +49,8 @@ class Dashboard extends StatelessWidget {
             ),
             GestureDetector(
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) =>  TotalVehiclePage()));
+                Navigator.pushNamed(context,
+                    MaterialPageRoute(builder: (context) =>  LoginPage())
               },
               child: DashboardCard(
                 color: Colors.blue,

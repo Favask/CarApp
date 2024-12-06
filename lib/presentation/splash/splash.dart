@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:githubcheckout2/presentation/home/home.dart';
+import 'package:githubcheckout2/presentation/login/login.dart';
 
 class SplashPage extends StatelessWidget {
   const SplashPage({super.key});
